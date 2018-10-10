@@ -1,0 +1,49 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Global Classes */
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.split {
+  justify-content: space-between;
+}
+
+/* Custom Styles */
+.main-header {
+  background: #444;
+  padding: 8px 5%;
+}
+
+.main-header h3 {
+  color: #fff;
+}
+
+.main-header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-content {
+  flex: 1;
+}
+
+footer {
+  background: #444;
+  color: #fff;
+  padding: 15px 5%;
+}
